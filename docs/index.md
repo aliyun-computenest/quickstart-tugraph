@@ -1,7 +1,7 @@
 # TuGraph服务实例部署文档
 
 ## 概述
-TuGraph（tugraph.antgroup.com）是蚂蚁集团的高性能图数据库（Graph Database）。TuGraph在计算巢上提供了社区版服务，您无需自行购置云主机，即可在计算巢上快速部署TuGraph服务、实现运维监控，从而搭建您自己的图应用。本文向您介绍如何开通计算巢上的TuGraph社区版服务，以及部署流程和使用说明。
+TuGraph（tugraph.tech）是蚂蚁集团的高性能图数据库（Graph Database）。TuGraph在计算巢上提供了社区版服务，您无需自行购置云主机，即可在计算巢上快速部署TuGraph服务、实现运维监控，从而搭建您自己的图应用。本文向您介绍如何开通计算巢上的TuGraph社区版服务，以及部署流程和使用说明。
 
 目前TuGraph处于**免费**试用阶段，欢迎大家申请试用，期间发现任何问题也欢迎反馈交流。
 
@@ -97,13 +97,13 @@ TuGraph部署的为社区开源版本，源码参考[Github Repo](https://github
 
 ![3.png](3.png)
 
-- 点击该服务实例访问TuGraph。进入到对应的服务实例后，可以在页面上获取到web、rpc、ssh共3种使用方式，并且页面上展示了admin用户的密码
+- 点击该服务实例访问TuGraph。进入到对应的服务实例后，可以在页面上获取到web、rpc、ssh、bolt共3种使用方式，并且页面上展示了admin用户的密码，其中bolt字段和密码在登陆时需要用到。
 
 ![4.png](4.png)
 
 - 点击web的链接，即可跳转访问已经部署好的TuGraph Web。建议新手先通过TuGraph Web，快速使用demo上手。
-    - 首先在TuGraph Web的登录页面上，输入默认用户名admin和页面上展示的admin用户的密码进行登录，参考下图
-    - 登录完成后，选择任意一个带有官方图标的图项目，其中内置了demo数据，开启图数据的探索和发现！
+    - 首先在TuGraph Web的登录页面上，输入bolt字段、默认用户名admin和页面上展示的admin用户的密码进行登录。参考下图
+    - 登录后，点击“新建图项目”可以选择创建一个空白图或选择预置数据的图项目，如“电影”、“三国演义”、“三体”和“流浪地球”。开始探索和发现丰富的图数据吧！
 
 ![5.png](5.png)
 ![6.png](6.png)
@@ -131,7 +131,7 @@ web的启动需要一点点时间，请稍后刷新页面即可。
 
 ## 联系我们
 
-- TuGraph官网：[https://tugraph.antgroup.com/](https://tugraph.antgroup.com/)
+- TuGraph官网：[https://tugraph.tech/](https://tugraph.tech/)
 - 社区版开源地址：[https://github.com/TuGraph-family/tugraph-db](https://github.com/TuGraph-family/tugraph-db)
 - 联系邮箱：[tugraph@service.alipay.com](mailto:tugraph@service.alipay.com)
 - 快速问题排查：[Github Discussion](https://github.com/TuGraph-family/tugraph-db/discussions/115)，也可以通过技术交流群
