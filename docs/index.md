@@ -97,7 +97,7 @@ TuGraph部署的为社区开源版本，源码参考[Github Repo](https://github
 
 ![3.png](3.png)
 
-- 点击该服务实例访问TuGraph。进入到对应的服务实例后，可以在页面上获取到web、rpc、ssh、bolt共3种使用方式，并且页面上展示了admin用户的密码，其中bolt字段和密码在登陆时需要用到。
+- 点击该服务实例访问TuGraph。进入到对应的服务实例后，可以在页面上获取到web、rpc、ssh、bolt共4种使用方式，并且页面上展示了admin用户的密码，其中bolt字段和密码在登陆时需要用到。
 
 ![4.png](4.png)
 
